@@ -1,17 +1,21 @@
-\documentclass[cn,pad,chinese]{elegantbook}
+\documentclass[cn,pad,chinesefont=nofont]{elegantbook}
+\usepackage{xpinyin}
 \usepackage{latexgit}
 \usepackage{hyperref}
 \hypersetup{
 	pdftitle={洞箫集谱},
     pdfauthor={薛建敏}
 }
+\setCJKmainfont{Source Han Serif} 
+\setCJKsansfont{Source Han Sans} 
+\setCJKmonofont{Source Han Mono}
 
 \title{洞箫集谱}
 \author{薛建敏}
 \date{\zhtoday}
 \cover{dongxiao/cover.jpeg}
 \logo{monk.png}
-\extrainfo{清籁远喑喑，秦楼夜思深。碧空人已去，沧海凤难寻。\\杳妙和云绝，依微向水沉。还将九成意，高阁伫芳音。}
+\extrainfo{清籁远\xpinyin*{喑}喑，秦楼夜思深。碧空人已去，沧海凤难寻。\\杳妙和云绝，依微向水沉。还将九成意，高阁伫芳音。}
 \version{\gitcommithash}
 
 \begin{document}
@@ -28,7 +32,8 @@
 
 \chapter{八孔箫指法图}
 \includegraphics[width=0.93\textwidth]{dongxiao/Scan.jpeg}
-\chapter{练习谱 - 筒音作5}
+\chapter{练习谱}
+\section{练习谱 - 筒音作5}
 \begin{center}
 	\includegraphics[width=\textwidth]{dongxiao/Scan 1-1.jpeg}
 	\includegraphics[width=\textwidth]{dongxiao/Scan 1-2.jpeg}
@@ -36,7 +41,7 @@
 	\includegraphics[width=\textwidth]{dongxiao/Scan 2.jpeg}
 	\includegraphics[width=\textwidth]{dongxiao/Scan 3.jpeg}
 \end{center}
-\chapter{练习谱 - 筒音作2}
+\section{练习谱 - 筒音作2}
 	\includegraphics[width=0.8\textwidth]{dongxiao/Scan 6.jpeg}～
 
 \chapter{练习歌曲-首选}
@@ -52,10 +57,10 @@
 	\includegraphics[width=\textwidth]{dongxiao/20200627-小草.jpg}  
 
 \chapter{王维}
-\section{少年行}
-    \includegraphics[width=\textwidth]{dongxiao/20200627-王维-少年行.jpg} 
 \section{山中}
     \includegraphics[width=\textwidth]{dongxiao/20200627-王维-山中.jpg} 
+\section{少年行}
+    \includegraphics[width=\textwidth]{dongxiao/20200627-王维-少年行.jpg} 
 \section{山居秋暝}
     \includegraphics[width=\textwidth]{dongxiao/20200627-王维-山居秋暝.jpg} 
 \section{辛夷坞}
