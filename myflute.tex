@@ -1,11 +1,14 @@
+%!TEX options = --shell-escape
 \documentclass[cn,pad,twocol]{elegantbook}
 \usepackage{array}
 \usepackage{xpinyin}
-\usepackage{latexgit}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage[noheader]{gitver}
 \usepackage{hyperref}
 \hypersetup{
 	pdftitle={北園清箫習谱},
-    pdfauthor={北园主人}
+    pdfauthor={北园主人},
 }
 
 \title{北園習箫谱}
@@ -14,7 +17,7 @@
 \cover{cover21}
 \logo{monk.png}
 \extrainfo{清籁远\xpinyin*{喑}喑，秦楼夜思深。碧空人已去，沧海凤难寻。\\杳妙和云绝，依微向水沉。还将九成意，高阁伫芳音。}
-\version{\gitcommithash}
+\version{\gitVer}
 \fancyfoot[C]{明月如霜，青箫独吟，小桥清溪枯柳。杯黄酒，又见纤纤酥手舞彩袖。}
 
 \begin{document}
